@@ -1,0 +1,44 @@
+
+
+<!DOCTYPE HTML> 
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Create An Account</title>
+    <link rel="stylesheet" href="DBProject_Style.css">
+</head>
+
+<body style="background-color: #2E3047">
+    <form class="flexbox-menuform" action="DBProject_SignUpBackend.php" method='post'> <!-- container for the full flexbox-->
+        <h1 style="text-align: center; margin-bottom: 0px"> Library of Music Discographies </h1>
+
+        <div class="login">
+            <header>Please Register Your Account</header>
+                *All usernames are distinct.<br>
+                *6 character length minimum for credentials
+                <label for="username" style="margin-left: 70px;">Username</label><br>
+                <input type="text" id="username" name="username"><br><br>
+
+                <label for="password">Password</label><br>
+                <input type="password" id="password" name="password">
+                <input type="checkbox" onclick="showPassword()"e style="margin-left: 50px;">
+                <label for="toggle" style="margin-left: 0px;">Show Password</label>
+
+                <button type="submit" style="background-color:#24a0ed; margin-top: 25px;">Register</button><br>
+            <!-- sign up -->
+               <button type="button" style="background-color:#24a0ed;"><a href="DBProject_Login.html" style="text-decoration: none;">Back To Login</a></button>
+        </div>
+
+    </form>
+    <script>
+        function showPassword(){  
+            var x = document.getElementById("password");
+            if (x.type === "password") {
+                x.type = "text";
+            }else {
+                x.type = "password";
+            }
+        }
+    </script>
+</body>
+</html>

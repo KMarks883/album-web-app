@@ -1,0 +1,108 @@
+
+
+
+.flexbox-menuform { /* properties for the full flexbox */
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    flex-shrink: 0; /*setting this to zero to keep flex box sized fixed when window size changes, (flex-grow is defualt 0).*/ 
+    margin: 100px auto auto auto;
+    height: auto;
+    width: 1100px;
+    padding-bottom: 40px;
+    background-color: #6a6c79;
+    border: 2px solid grey;
+    font-family: Arial, Helvetica, sans-serif;
+    
+
+}
+
+.fieldbox { /* basic properties the two menu section flexbox items */
+    height: auto;
+    font-size: 20px;
+    background-color: #928e8e;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+button{
+    margin-bottom: 10px;
+}
+
+.fieldbox > input, select{
+    margin-top: 10px;
+    margin-left: 430px;
+}
+.fieldbox > select{
+    width: 180px;
+}
+.fieldbox > label{
+    margin-left: 470px;
+}
+
+.fieldbox > button{
+    margin-left: 475px;
+    margin-top: 20px;
+    height: 20px;
+    width: 200px;
+}
+
+
+.login{
+    height: 300px;
+    font-size: 20px;
+    background-color: #928e8e;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.login > input{
+    margin-top: 10px;
+    margin-left: 430px;
+}
+.login > label{
+    margin-left: 460px;
+}
+
+.login > button{
+    margin-left: 465px;
+    margin-bottom: 10px;
+    height: 20px;
+    width: 100px;
+}
+
+.results-header{
+    background-color: #6a6c79;
+
+}
+
+.list-background{
+    background-color:#6a6c79;
+    width:800px;
+    margin: auto;
+    padding-bottom: 85.45; 
+    height: auto;
+    border: solid 3px;
+    border-color: #a1a1a5;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.firstResult-list{
+    background-color:rgb(122, 120, 120);
+    width: 500px;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+
+
+
+header { /*properties for the header titles of both flexbox items */
+    font-style: oblique;
+    font-size: 25pt;
+    background-color:rgb(104, 104, 104);
+    height: auto;
+}
+

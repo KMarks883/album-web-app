@@ -1,0 +1,48 @@
+
+
+<!DOCTYPE HTML> 
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Login</title>
+    <link rel="stylesheet" href="DBProject_Style.css">
+</head>
+
+<body style="background-color: #2E3047">
+<form class="flexbox-menuform" action="DBProject_AccountLoginBackend.php" method='post'> <!-- container for the full flexbox-->
+    <h1 style="text-align: center; margin-bottom: 0px">  Library of Music Discographies  </h1>
+
+    <div class="login">
+        <header>Login To Your Account</header>
+
+            <label for="username" >Username</label><br>
+            <input type="text" id="username" name="username"><br><br>
+
+            <label for="password" >Password</label>
+            <input type="password" id="password" name="password">
+            <input type="checkbox" onclick="showPassword()" style="margin-left: 50px;">
+            <label for="toggle" style="margin-left: 0px;">Show Password</label>
+
+            <button type="submit" style="background-color:#24a0ed; margin-top: 25px; width: 90px;">Login</button>
+            <button type="button" style="background-color:#24a0ed; width: 90px;"><a href="DBProject_SignUp.html" style="text-decoration: none;">Register</a></button>
+			<button type="button" style="background-color:#D11A2A ; width: 110px; margin-left: 455px;"><a href="DBProject_Delete.html" style="text-decoration: none; color: white;">Delete Account</a></button>
+        <!-- sign up -->
+    </div>
+</form>
+
+
+
+<script>
+    function showPassword(){  
+        var x = document.getElementById("password");
+        if (x.type === "password") {
+            x.type = "text";
+        }else {
+            x.type = "password";
+        }
+    }
+</script>
+
+
+</body>
+</html>
