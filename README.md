@@ -6,7 +6,7 @@ Link to data set used: https://www.kaggle.com/revilrosa/music-label-datase
 Creators: Kevin Marks, Ben Biersack, Quang Do
 
 Contributions:
-Kevin Marks: front-end, search and favorites list functionality, and query setup.
-Quang Do: user account creation/management
+Kevin Marks: front-end, search and favorites list functionality, and query setup.  
+Quang Do: user account creation/management.  
 Ben Biersack: relational schema/ER design, and query setup.
 
